@@ -1,62 +1,23 @@
+# PROPIEDAD INTELECTUAL
+Material didáctico preparado por la empresa Global K, S.A. de C.V., Registrado en Derechos de Autor.
+Todos los contenidos de este sitio (incluyendo, pero no limitado a, texto, logotipos, contenido, fotografías, audio, botones, nombres comerciales y video) están sujetos a derechos de propiedad por las leyes de Derechos de Autor de la empresa Global K, S.A. de C.V.
+Queda prohibido copiar, reproducir, distribuir, publicar, transmitir, difundir, o en cualquier modo explotar cualquier parte de este documento sin la autorización previa por escrito de Global K, S.A. de C.V. o de los titulares correspondientes.
 
-# Nombre Laboratorio
+# DESCRIPCIÓN DEL CURSO
+El curso proporcionará al participante una comprensión de los conceptos básicos y práctica de las técnicas, herramientas y mejores prácticas asociadas al Software Testing.
 
-Este texto es una descripción general del proyecto. Se debe de sustituir por el contenido
-que el instructor decida agregar. 
+# OBJETIVOS DEL CURSO
+Al finalizar el curso, serás capaz de:
+•	Obtener las bases de conocimiento y aplicación de la realización de pruebas de software.
+# PRERREQUISITOS
+•	Conocimientos básicos de programación.
 
-## Objetivos
-- objetivo1
-- objetivo2
-- objetivo3
-- objetivo4
+•	Familiaridad con conceptos de desarrollo de software (opcional).
 
+•	Disposición para aprender y participar en actividades prácticas.
+# AUDIENCIA
+Este curso va dirigido para estudiantes, profesionales en desarrollo de software, ingenieros de calidad, analistas de pruebas, gerentes de proyecto o cualquier profesional interesado en adquirir habilidades en el área de testing de software.
 
-## Diagrama (Opcional / se puede cambiar por introducción)
-Se espera que el alumno pueda implementar el siguiente contenido. 
-
-![diagrama1](../images/img1.png)
-
-
-## Instrucciones 
-### Configuración de contenedor mysql
-1. Crear una red con el siguiente comando
-```shell
-docker network create --subnet 10.0.0.0/16 --gateway 10.0.0.1 red2
-```
-
-2. Ahora crearemmos el contenedor del servidor virtual de mysql. 
-
-- Usar el siguiente comando: 
-
-```shell
-docker run --name mysqlserver -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=traducciones --network mired -d mysql:8.0
-```
-
-- En el comando tenemos los siguientes datos:
-    - User: root
-    - Password: 1234
-    - Database: traducciones
-    - Network: mired
-    - Name: mysqlserver 
-
-> [!IMPORTANT]
-> Recordar el nombre del contenedor ya que lo usaremos más adelante. 
-
-
-### Configuración de contenedor backend y frontend
-Para esta secciones necesitaremos el contenido de nuestro repositorio en la carpeta capitulo1
-
-1. Descargar el archivo de la siguiente ruta
-https://github.com/EdgardoVelasco/SeguridadApisCourse/tree/master/capitulo2
-
-- En el repositorio encontraremos el siguiente contenido. 
-![imagen repositorio](../images/img2.png)
-
-
-
-
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
-
-
+![images00](../images/image00.png)
+# Guia de Laboratorios
+- [Capitulo 2](../capitulo2/index.html)
