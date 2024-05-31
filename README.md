@@ -18,6 +18,6 @@ Al finalizar el curso, serás capaz de:
 # AUDIENCIA
 Este curso va dirigido para estudiantes, profesionales en desarrollo de software, ingenieros de calidad, analistas de pruebas, gerentes de proyecto o cualquier profesional interesado en adquirir habilidades en el área de testing de software.
 
-![images00](.../images/image00.png)
+![images00](../images/image00.png)
 # Guia de Laboratorios
-- [Capitulo 2](../capitulo2/index.html)
+- [Capitulo 2](./capitulo2/index.html)
